@@ -54,7 +54,7 @@ to user interfaces, such as [Arduino Nano 33 BLE](https://store.arduino.cc/produ
 microscope and/or spectrometer and classify the type and density of toxic
 components in the water, such as [Tensorflow Lite](https://www.tensorflow.org/lite/microcontrollers).
 
-**Power** - it should be as low power as possible, and operate only briefly to take a reading and transfer data. Ideally solar with no need for battery charging. 
+**Power** - it should be as low power as possible, and operate only briefly to take a reading, display results, and transfer data. Ideally solar with no need for battery charging. 
 
 **Enclosure** - it should look awesome.
 

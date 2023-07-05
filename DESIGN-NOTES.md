@@ -3,6 +3,12 @@ Design Notes
 
 These are high level design notes for the Water Tricorder project, an easy to use water quality instrument. 
 
+Why
+---
+
+Existing water quality devices either measure only a subset of possible toxins, or are designed for industrial use and are too expensive and unusable by laypersons. This device is intended for use by outdoor enthusiasts, people in rural communities, and in disaster zones where water quality is unknown, and detailed data can help with adhoc water treatment. 
+
+
 Design Team
 -----------
 
@@ -42,11 +48,11 @@ Primary Systems
 **Spectrometer** - a small and simple spectrometer that captures inorganic data.
 
 **CPU** - a small system for for processing sensor data and relaying it by bluetooth 
-to user interfaces.
+to user interfaces, such as Arduino Nano 33.
 
 **Software** - machine learning systems that can classify the sensor input from the
 microscope and/or spectrometer and classify the type and density of toxic
-components in the water.
+components in the water, such as [Tensorflow Lite](https://www.tensorflow.org/lite/microcontrollers).
 
 **Power** - it should be as low power as possible, and operate only briefly to take a reading and transfer data. Ideally solar with no need for battery charging. 
 

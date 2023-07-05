@@ -1,6 +1,7 @@
 Design Notes
 ============
 
+These are high level design notes for the Water Tricorder project, an easy to use water quality instrument. 
 
 Design Team
 -----------
@@ -36,9 +37,9 @@ the reliability of the system changes over time, then some reliable warning sens
 Primary Systems
 ---------------
 
-**Optical Sensor** - a small and simple microscope that captures organism data
+**Optical Sensor** - a simple digital microscope to capture images of microorganisms.
 
-**Spectrometer** - a small and simple spectrometer that captures inorganic data
+**Spectrometer** - a small and simple spectrometer that captures inorganic data.
 
 **CPU** - a small system for for processing sensor data and relaying it by bluetooth 
 to user interfaces.
@@ -66,7 +67,7 @@ backlighting.
 Spectrometer
 ------------
 
-A spectrometer design that could follow Public Labs' DIY spectrometer design,
+A spectrometer design that could follow [Public Lab's DIY spectrometer](https://publiclab.org/wiki/spectrometry) design,
 perhaps miniaturized.
 
 

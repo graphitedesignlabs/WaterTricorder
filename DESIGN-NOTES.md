@@ -79,4 +79,4 @@ as a superstructure over a cellphone or a wireless tricorder scanner puck. It
 should have some superfluous led awesomeness so no one can see this and not want
 to ask "what is that?"
 
-
+![image](https://trekcentral-net.cdn.ampproject.org/i/s/trekcentral.net/wp-content/uploads/2022/11/915416-1501x1536.png)

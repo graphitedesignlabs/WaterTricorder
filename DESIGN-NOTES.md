@@ -86,3 +86,5 @@ should have some superfluous led awesomeness so people who see this
 will ask "what is that?"
 
 ![image](https://trekcentral-net.cdn.ampproject.org/i/s/trekcentral.net/wp-content/uploads/2022/11/915416-1501x1536.png)
+
+Consider inviting participation from indigenous communities in co-designing this. 

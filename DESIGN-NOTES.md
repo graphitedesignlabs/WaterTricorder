@@ -15,23 +15,23 @@ TBD
 Design Principles
 -----------------
 
-**Opensource:** A public project for all. 
+**Opensource** - a public project for all. 
 
-**Simplicity:** Simple enough that all components can be taken apart, examined, understood, and
+**Simplicity** - simple enough that all components can be taken apart, examined, understood, and
 repaired by people with high school educations.
 
-**Affordability:** It shouldn't cost more than $100.
+**Affordability** - it shouldn't cost more than $100.
 
-**Usability:** It should be simple enough that people without a high school
+**Usability** - it should be simple enough that people without a high school
 education can reliably use the instrument.
 
-**Responsiveness:** It should not take more than 10 seconds to provide and
+**Responsiveness** - it should not take more than 10 seconds to provide and
 a reading.
 
-**Reliability:** It has one job: to answer the question, "can I drink this water?" If
+**Reliability** - it has one job: to answer the question, "can I drink this water?" If
 the reliability of the system changes over time, then some reliable warning sensor should be built-in (a timer?) and maintenance should be easy for anyone without a high school degree.
 
-**Attractiveness:** It should look awesome.
+**Attractiveness** - it should look awesome.
 
 Primary Systems
 ---------------

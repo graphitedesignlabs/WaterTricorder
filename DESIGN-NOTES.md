@@ -48,7 +48,7 @@ Primary Systems
 **Spectrometer** - a small and simple spectrometer that captures inorganic data.
 
 **CPU** - a small system for for processing sensor data and relaying it by bluetooth 
-to user interfaces, such as Arduino Nano 33.
+to user interfaces, such as [Arduino Nano 33 BLE](https://store.arduino.cc/products/arduino-nano-33-ble-sense).
 
 **Software** - machine learning systems that can classify the sensor input from the
 microscope and/or spectrometer and classify the type and density of toxic

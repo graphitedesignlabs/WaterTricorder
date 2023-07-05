@@ -5,12 +5,12 @@ WaterTricorder Design Notes
 Design Team
 -----------
 
-TDB
+TBD
 
 Advisors
 --------
 
-TDB
+TBD
 
 Design Principles
 -----------------

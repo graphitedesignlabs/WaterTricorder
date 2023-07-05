@@ -1,5 +1,5 @@
-WaterTricorder Design Notes
-===========================
+Design Notes
+============
 
 
 Design Team
@@ -25,7 +25,7 @@ repaired by people with high school educations.
 **Usability** - it should be simple enough that people without a high school
 education can reliably use the instrument.
 
-**Responsiveness** - it should not take more than 10 seconds to provide and
+**Responsiveness** - it should not take more than 10 seconds to provide
 a reading.
 
 **Reliability** - it has one job: to answer the question, "can I drink this water?" If

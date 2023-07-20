@@ -1,51 +1,62 @@
-WaterTricorder Design Notes
-===========================
+Design Notes
+============
+
+These are high level design notes for the Water Tricorder project, an easy to use water quality instrument. 
+
+Why
+---
+
+Existing water quality devices either measure only a subset of possible toxins, or are designed for industrial use and are too expensive and unusable by laypersons. This device is intended for use by outdoor enthusiasts, people in rural communities, and in disaster zones where water quality is unknown, and detailed data can help with adhoc water treatment. 
 
 
 Design Team
 -----------
 
+TBD
 
 Advisors
 --------
 
+TBD
 
 Design Principles
 -----------------
 
-Opensource: This is by and for everyone.
+**Opensource** - a public project for all. 
 
-Simplicity: Simple enough that all components can be taken apart, examined, understood, and
+**Simplicity** - simple enough that all components can be taken apart, examined, understood, and
 repaired by people with high school educations.
 
-Affordability: It shouldn't cost more than $100.
+**Affordability** - it shouldn't cost more than $100.
 
-Usability: It should be simple enough that people without a high school
+**Usability** - it should be simple enough that people without a high school
 education can reliably use the instrument.
 
-Responsiveness: It should not take more than 10 seconds to provide and
+**Responsiveness** - it should not take more than 10 seconds to provide
 a reading.
 
-Reliability: It has one job: to answer the question, "can I drink this water?" If
+**Reliability** - it has one job: to answer the question, "can I drink this water?" If
 the reliability of the system changes over time, then some reliable warning sensor should be built-in (a timer?) and maintenance should be easy for anyone without a high school degree.
 
-Spectacle: It should look awesome.
+**Attractiveness** - it should look awesome.
 
 Primary Systems
 ---------------
 
-Optical Sensor - a small and simple microscope that captures organism data
+**Optical Sensor** - a simple digital microscope to capture images of microorganisms.
 
-Spectrometer - a small and simple spectrometer that captures inorganic data
+**Spectrometer** - a small and simple spectrometer that captures inorganic data.
 
-CPU - a small system for for processing sensor data and relaying it by bluetooth 
-to user interfaces.
+**CPU** - a small system for for processing sensor data and relaying it by bluetooth 
+to user interfaces, such as [Arduino Nano 33 BLE](https://store.arduino.cc/products/arduino-nano-33-ble-sense).
 
-Software - machine learning systems that can classify the sensor input from the
+**Software** - machine learning systems that can classify the sensor input from the
 microscope and/or spectrometer and classify the type and density of toxic
-components in the water.
+components in the water, such as [Tensorflow Lite](https://www.tensorflow.org/lite/microcontrollers).
 
-Enclosure - it should look awesome.
+**Power** - it should be as low power as possible, and operate only briefly to take a reading, display results, and transfer data. Ideally solar with no need for battery charging. 
+
+**Enclosure** - it should look awesome.
 
 
 Optical Sensor
@@ -62,7 +73,7 @@ backlighting.
 Spectrometer
 ------------
 
-A spectrometer design that could follow Public Labs' DIY spectrometer design,
+A spectrometer design that could follow [Public Lab's DIY spectrometer](https://publiclab.org/wiki/spectrometry) design,
 perhaps miniaturized.
 
 
@@ -71,7 +82,9 @@ Enclosure
 
 Consider the tricorder design. Play up the utopic Star Trek connection, either
 as a superstructure over a cellphone or a wireless tricorder scanner puck. It
-should have some superfluous led awesomeness so no one can see this and not want
-to ask "what is that?"
+should have some superfluous led awesomeness so people who see this 
+will ask "what is that?"
 
+![image](https://trekcentral-net.cdn.ampproject.org/i/s/trekcentral.net/wp-content/uploads/2022/11/915416-1501x1536.png)
 
+Consider inviting participation from indigenous communities in co-designing this. 

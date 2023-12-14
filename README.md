@@ -1,5 +1,5 @@
-WaterTricorder
-==============
+Water Tricorder
+===============
 
 Approximately 2 billion people around the world are affected by poor water
 quality.

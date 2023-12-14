@@ -6,8 +6,9 @@ These are high level design notes for the Water Tricorder project, an easy to us
 Why
 ---
 
-Existing water quality devices either measure only a subset of possible toxins, or are designed for industrial use and are too expensive and unusable by laypersons. This device is intended for use by outdoor enthusiasts, people in rural communities, and in disaster zones where water quality is unknown, and detailed data can help with adhoc water treatment. 
+Existing water quality devices either measure only a subset of possible toxins, are designed for industrial use and are too expensive and unusable by laypersons, or require consumables such as test strips that render testing impossible once if the supply runs out.
 
+This device is intended for use by outdoor enthusiasts, people in rural communities, in disaster zones where water quality is unknown, and many other places. A simple yes/no to water potability can serve immediate needs, and detailed data output can help with adhoc water treatment planning.
 
 Design Team
 -----------

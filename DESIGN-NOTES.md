@@ -29,35 +29,31 @@ repaired by people with high school educations.
 
 **Affordability** - it shouldn't cost more than $100.
 
-**Usability** - it should be simple enough that people without a high school
-education can reliably use the instrument.
+**Usability** - it should be simple enough that children and seniors can reliably use the instrument.
 
-**Responsiveness** - it should not take more than 10 seconds to provide
-a reading.
+**Responsiveness** - it should not take more than 10 seconds to provide a reading.
 
-**Reliability** - it has one job: to answer the question, "can I drink this water?" If
-the reliability of the system changes over time, then some reliable warning sensor should be built-in (a timer?) and maintenance should be easy for anyone without a high school degree.
+**Reliability** - it has one job: to answer the question, "can I drink this water?" If the reliability 
+of the system degrades over time, then some reliable warning sensor should be built-in and maintenance 
+should be easy for anyone with basic literacy.
 
-**Attractiveness** - it should look awesome.
+**Attractiveness** - it should look cool.
 
 Primary Systems
 ---------------
 
-**Optical Sensor** - a simple digital microscope to capture images of microorganisms.
+**Optical Sensor** - a simple low cost digital microscope to capture optical data of microorganisms from water samples.
 
 **Spectrometer** - a small and simple spectrometer that captures inorganic data.
 
-**CPU** - a small system for for processing sensor data and relaying it by bluetooth 
-to user interfaces, such as [Arduino Nano 33 BLE](https://store.arduino.cc/products/arduino-nano-33-ble-sense).
+**CPU** - a small system for for processing sensor data and displaying user interface output.
 
-**Software** - machine learning systems that can classify the sensor input from the
-microscope and/or spectrometer and classify the type and density of toxic
-components in the water, such as [Tensorflow Lite](https://www.tensorflow.org/lite/microcontrollers).
+**Software** - machine learning systems that can classify sensor inputs and classify the type and density of toxic
+components in the water and answer the simple potability yes/no question.
 
-**Power** - it should be as low power as possible, and operate only briefly to take a reading, display results, and transfer data. Ideally solar with no need for battery charging. 
+**Power** - it should be as low power as possible, and operate only briefly to take a reading, display results, and transfer data.
 
-**Enclosure** - it should look awesome.
-
+**Enclosure** - self contained, waterproof, minimal parts, small, accessible, repairable with simple tools.
 
 Optical Sensor
 --------------
@@ -67,7 +63,9 @@ it can feed a machine learning system sufficiently good images for the ML to
 recognize bacteriological pathogens (are these the right terms?). Low power
 microscopes can even use a cellphone camera and a fitted lens, while middle 
 or high power would require more sophisticated optics. Both system may require
-backlighting.
+backlighting. Should have a low-maintenance lens, meaning that it should 
+not require frequent cleaning and the cleaning process should be easy and 
+simple. Ideally the ML system should compensate well for lens damage.
 
 
 Spectrometer
@@ -76,6 +74,20 @@ Spectrometer
 A spectrometer design that could follow [Public Lab's DIY spectrometer](https://publiclab.org/wiki/spectrometry) design,
 perhaps miniaturized.
 
+CPU
+---
+
+Consider [Arduino Nano 33 BLE](https://store.arduino.cc/products/arduino-nano-33-ble-sense).
+
+Software
+--------
+
+Probably [Tensorflow Lite](https://www.tensorflow.org/lite/microcontrollers).
+
+Power
+-----
+
+Ideally solar with no need for battery charging, or a mechanical thumb button that uses a small dynamo to produce momentary charge.
 
 Enclosure
 ---------

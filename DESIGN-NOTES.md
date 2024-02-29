@@ -1,7 +1,7 @@
 Design Notes
 ============
 
-These are high level design notes for the Water Tricorder project, an easy to use water quality instrument. 
+These are high level design notes for the Water Tricorder project, an easy-to-use water quality instrument. 
 
 Why
 ---
@@ -68,6 +68,11 @@ backlighting. Should have a low-maintenance lens, meaning that it should
 not require frequent cleaning and the cleaning process should be easy and 
 simple. Ideally the ML system should compensate well for lens damage.
 
+Since most bacteria range in size from about 0.2 to 2 micrometers (µm), a lens 
+of 1000x or more would be required. The use of some additional technique such as
+[Darkfield Microscopy](https://en.wikipedia.org/wiki/Dark-field_microscopy) 
+would enhance the visibility of bacteria and, in combination with machine
+learning, may allow for good operation with reduced magnification.
 
 Spectrometer
 ------------

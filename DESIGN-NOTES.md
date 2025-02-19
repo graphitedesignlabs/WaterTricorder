@@ -56,6 +56,11 @@ components in the water and answer the simple potability yes/no question.
 
 **Enclosure** - self contained, waterproof, minimal parts, small, accessible, repairable with simple tools.
 
+Background
+----------
+
+* [Conventional water quality measurement approaches](https://publiclab.org/notes/anngneal/12-08-2017/7-ways-to-measure-monitor-and-evaluate-water-quality)
+
 Optical Sensor
 --------------
 
